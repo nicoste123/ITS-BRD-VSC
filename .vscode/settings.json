@@ -125,5 +125,8 @@
     "*.s": "arm-debugger.arm",
     "*.c": "c",
     "*.h": "c"
+  },
+  "files.readonlyInclude": {
+    "{**/.c4z/.extsrcs/*.PROTSYM.cbl,**/.c4z/.extsrcs/*.PROTSYM.listing}": true
   }
 }
